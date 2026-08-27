@@ -1,0 +1,23 @@
+@"
+# Environment variables
+.env
+*.env
+Backend/.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Database
+*.db
+
+# IDE
+.vscode/
+.idea/
+"@ | Out-File -Encoding utf8 .gitignore
